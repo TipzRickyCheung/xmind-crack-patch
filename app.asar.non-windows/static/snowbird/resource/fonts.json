@@ -917,35 +917,59 @@
     ],
     "NeverMind": [
         {
+            "style": "Heavy",
+            "weight": 900,
+            "italic": false,
+            "src": "fonts/files/NeverMind-Heavy.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Heavy Italic",
+            "weight": 900,
+            "italic": true,
+            "src": "fonts/files/NeverMind-HeavyItalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraBold",
+            "weight": 800,
+            "italic": false,
+            "src": "fonts/files/NeverMind-Extrabold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Extrabold Italic",
+            "weight": 800,
+            "italic": true,
+            "src": "fonts/files/NeverMind-ExtraboldItalic.ttf",
+            "format": "truetype"
+        },
+        {
             "style": "Bold",
             "weight": 700,
             "italic": false,
             "src": "fonts/files/NeverMind-Bold.ttf",
-            "preview": "fonts/previews/NeverMind-Bold.svg",
             "format": "truetype"
         },
         {
             "style": "Bold Italic",
             "weight": 700,
             "italic": true,
-            "src": "fonts/files/NeverMind-Bolditalic.ttf",
-            "preview": "fonts/previews/NeverMind-Bolditalic.svg",
+            "src": "fonts/files/NeverMind-BoldItalic.ttf",
             "format": "truetype"
         },
         {
-            "style": "Demibold",
+            "style": "DemiBold",
             "weight": 600,
             "italic": false,
             "src": "fonts/files/NeverMind-DemiBold.ttf",
-            "preview": "fonts/previews/NeverMind-DemiBold.svg",
             "format": "truetype"
         },
         {
-            "style": "Demibold Italic",
+            "style": "DemiBold Italic",
             "weight": 600,
             "italic": true,
-            "src": "fonts/files/NeverMind-DemiBolditalic.ttf",
-            "preview": "fonts/previews/NeverMind-DemiBolditalic.svg",
+            "src": "fonts/files/NeverMind-DemiBoldItalic.ttf",
             "format": "truetype"
         },
         {
@@ -953,15 +977,13 @@
             "weight": 500,
             "italic": false,
             "src": "fonts/files/NeverMind-Medium.ttf",
-            "preview": "fonts/previews/NeverMind-Medium.svg",
             "format": "truetype"
         },
         {
             "style": "Medium Italic",
             "weight": 500,
             "italic": true,
-            "src": "fonts/files/NeverMind-Mediumitalic.ttf",
-            "preview": "fonts/previews/NeverMind-Mediumitalic.svg",
+            "src": "fonts/files/NeverMind-MediumItalic.ttf",
             "format": "truetype"
         },
         {
@@ -969,15 +991,27 @@
             "weight": 400,
             "italic": false,
             "src": "fonts/files/NeverMind-Regular.ttf",
-            "preview": "fonts/previews/NeverMind-Regular.svg",
             "format": "truetype"
         },
         {
             "style": "Regular Italic",
             "weight": 400,
             "italic": true,
-            "src": "fonts/files/NeverMind-Regularitalic.ttf",
-            "preview": "fonts/previews/NeverMind-Regularitalic.svg",
+            "src": "fonts/files/NeverMind-RegularItalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Book",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMind-Book.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Book Italic",
+            "weight": 300,
+            "italic": true,
+            "src": "fonts/files/NeverMind-BookItalic.ttf",
             "format": "truetype"
         },
         {
@@ -985,15 +1019,13 @@
             "weight": 300,
             "italic": false,
             "src": "fonts/files/NeverMind-Light.ttf",
-            "preview": "fonts/previews/NeverMind-Light.svg",
             "format": "truetype"
         },
         {
             "style": "Light Italic",
             "weight": 300,
             "italic": true,
-            "src": "fonts/files/NeverMind-Lightitalic.ttf",
-            "preview": "fonts/previews/NeverMind-Lightitalic.svg",
+            "src": "fonts/files/NeverMind-LightItalic.ttf",
             "format": "truetype"
         },
         {
@@ -1001,15 +1033,13 @@
             "weight": 200,
             "italic": false,
             "src": "fonts/files/NeverMind-ExtraLight.ttf",
-            "preview": "fonts/previews/NeverMind-ExtraLight.svg",
             "format": "truetype"
         },
         {
             "style": "ExtraLight Italic",
             "weight": 200,
             "italic": true,
-            "src": "fonts/files/NeverMind-ExtraLightitalic.ttf",
-            "preview": "fonts/previews/NeverMind-ExtraLightitalic.svg",
+            "src": "fonts/files/NeverMind-ExtraLightItalic.ttf",
             "format": "truetype"
         },
         {
@@ -1017,15 +1047,13 @@
             "weight": 100,
             "italic": false,
             "src": "fonts/files/NeverMind-Thin.ttf",
-            "preview": "fonts/previews/NeverMind-Thin.svg",
             "format": "truetype"
         },
         {
             "style": "Thin Italic",
             "weight": 100,
             "italic": true,
-            "src": "fonts/files/NeverMind-Thinitalic.ttf",
-            "preview": "fonts/previews/NeverMind-Thinitalic.svg",
+            "src": "fonts/files/NeverMind-ThinItalic.ttf",
             "format": "truetype"
         }
     ],
@@ -1035,15 +1063,13 @@
             "weight": 700,
             "italic": false,
             "src": "fonts/files/NeverMindHand-Bold.ttf",
-            "preview": "fonts/previews/NeverMindHand-Bold.svg",
             "format": "truetype"
         },
         {
-            "style": "Demibold",
+            "style": "DemiBold",
             "weight": 600,
             "italic": false,
             "src": "fonts/files/NeverMindHand-DemiBold.ttf",
-            "preview": "fonts/previews/NeverMindHand-DemiBold.svg",
             "format": "truetype"
         },
         {
@@ -1051,7 +1077,6 @@
             "weight": 500,
             "italic": false,
             "src": "fonts/files/NeverMindHand-Medium.ttf",
-            "preview": "fonts/previews/NeverMindHand-Medium.svg",
             "format": "truetype"
         },
         {
@@ -1059,7 +1084,6 @@
             "weight": 400,
             "italic": false,
             "src": "fonts/files/NeverMindHand-Regular.ttf",
-            "preview": "fonts/previews/NeverMindHand-Regular.svg",
             "format": "truetype"
         },
         {
@@ -1067,7 +1091,6 @@
             "weight": 300,
             "italic": false,
             "src": "fonts/files/NeverMindHand-Light.ttf",
-            "preview": "fonts/previews/NeverMindHand-Light.svg",
             "format": "truetype"
         },
         {
@@ -1075,7 +1098,6 @@
             "weight": 200,
             "italic": false,
             "src": "fonts/files/NeverMindHand-ExtraLight.ttf",
-            "preview": "fonts/previews/NeverMindHand-ExtraLight.svg",
             "format": "truetype"
         },
         {
@@ -1083,121 +1105,148 @@
             "weight": 100,
             "italic": false,
             "src": "fonts/files/NeverMindHand-Thin.ttf",
-            "preview": "fonts/previews/NeverMindHand-Thin.svg",
             "format": "truetype"
         }
     ],
     "NeverMind Condense": [
         {
+            "style": "Heavy",
+            "weight": 900,
+            "italic": false,
+            "src": "fonts/files/NeverMindCondensed-Heavy.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Heavy Italic",
+            "weight": 900,
+            "italic": true,
+            "src": "fonts/files/NeverMindCondensed-HeavyItalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraBold",
+            "weight": 800,
+            "italic": false,
+            "src": "fonts/files/NeverMindCondensed-Extrabold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Extrabold Italic",
+            "weight": 800,
+            "italic": true,
+            "src": "fonts/files/NeverMindCondensed-ExtraboldItalic.ttf",
+            "format": "truetype"
+        },
+        {
             "style": "Bold",
             "weight": 700,
             "italic": false,
-            "src": "fonts/files/NeverMind-CondensedBold.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedBold.svg",
+            "src": "fonts/files/NeverMindCondensed-Bold.ttf",
             "format": "truetype"
         },
         {
             "style": "Bold Italic",
             "weight": 700,
             "italic": true,
-            "src": "fonts/files/NeverMind-CondensedBolditalic.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedBolditalic.svg",
+            "src": "fonts/files/NeverMindCondensed-BoldItalic.ttf",
             "format": "truetype"
         },
         {
-            "style": "Demibold",
+            "style": "DemiBold",
             "weight": 600,
             "italic": false,
-            "src": "fonts/files/NeverMind-CondensedDemiBold.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedDemiBold.svg",
+            "src": "fonts/files/NeverMindCondensed-DemiBold.ttf",
             "format": "truetype"
         },
         {
-            "style": "Demibold Italic",
+            "style": "DemiBold Italic",
             "weight": 600,
             "italic": true,
-            "src": "fonts/files/NeverMind-CondensedDemiBolditalic.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedDemiBolditalic.svg",
+            "src": "fonts/files/NeverMindCondensed-DemiBoldItalic.ttf",
             "format": "truetype"
         },
         {
             "style": "Medium",
             "weight": 500,
             "italic": false,
-            "src": "fonts/files/NeverMind-CondensedMedium.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedMedium.svg",
+            "src": "fonts/files/NeverMindCondensed-Medium.ttf",
             "format": "truetype"
         },
         {
             "style": "Medium Italic",
             "weight": 500,
             "italic": true,
-            "src": "fonts/files/NeverMind-CondensedMediumitalic.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedMediumitalic.svg",
+            "src": "fonts/files/NeverMindCondensed-MediumItalic.ttf",
             "format": "truetype"
         },
         {
             "style": "Regular",
             "weight": 400,
             "italic": false,
-            "src": "fonts/files/NeverMind-CondensedRegular.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedRegular.svg",
+            "src": "fonts/files/NeverMindCondensed-Regular.ttf",
             "format": "truetype"
         },
         {
             "style": "Regular Italic",
             "weight": 400,
             "italic": true,
-            "src": "fonts/files/NeverMind-CondensedRegularitalic.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedRegularitalic.svg",
+            "src": "fonts/files/NeverMindCondensed-RegularItalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Book",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindCondensed-Book.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Book Italic",
+            "weight": 300,
+            "italic": true,
+            "src": "fonts/files/NeverMindCondensed-BookItalic.ttf",
             "format": "truetype"
         },
         {
             "style": "Light",
             "weight": 300,
             "italic": false,
-            "src": "fonts/files/NeverMind-CondensedLight.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedLight.svg",
+            "src": "fonts/files/NeverMindCondensed-Light.ttf",
             "format": "truetype"
         },
         {
             "style": "Light Italic",
             "weight": 300,
             "italic": true,
-            "src": "fonts/files/NeverMind-CondensedLightitalic.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedLightitalic.svg",
+            "src": "fonts/files/NeverMindCondensed-LightItalic.ttf",
             "format": "truetype"
         },
         {
             "style": "ExtraLight",
             "weight": 200,
             "italic": false,
-            "src": "fonts/files/NeverMind-CondensedExtraLight.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedExtraLight.svg",
+            "src": "fonts/files/NeverMindCondensed-ExtraLight.ttf",
             "format": "truetype"
         },
         {
             "style": "ExtraLight Italic",
             "weight": 200,
             "italic": true,
-            "src": "fonts/files/NeverMind-CondensedExtraLightitalic.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedExtraLightitalic.svg",
+            "src": "fonts/files/NeverMindCondensed-ExtraLightItalic.ttf",
             "format": "truetype"
         },
         {
             "style": "Thin",
             "weight": 100,
             "italic": false,
-            "src": "fonts/files/NeverMind-CondensedThin.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedThin.svg",
+            "src": "fonts/files/NeverMindCondensed-Thin.ttf",
             "format": "truetype"
         },
         {
             "style": "Thin Italic",
             "weight": 100,
             "italic": true,
-            "src": "fonts/files/NeverMind-CondensedThinitalic.ttf",
-            "preview": "fonts/previews/NeverMind-CondensedThinitalic.svg",
+            "src": "fonts/files/NeverMindCondensed-ThinItalic.ttf",
             "format": "truetype"
         }
     ],
@@ -1239,11 +1288,10 @@
     ],
     "NeverMind semi-serif": [
         {
-            "style": "Regular",
-            "weight": 400,
+            "style": "ExtraBold",
+            "weight": 800,
             "italic": false,
-            "src": "fonts/files/NeverMindsemi-serif-Regular.ttf",
-            "preview": "fonts/previews/NeverMindsemi-serif-Regular.svg",
+            "src": "fonts/files/NeverMindsemi-serif-ExtraBold.ttf",
             "format": "truetype"
         },
         {
@@ -1251,7 +1299,48 @@
             "weight": 700,
             "italic": false,
             "src": "fonts/files/NeverMindsemi-serif-Bold.ttf",
-            "preview": "fonts/previews/NeverMindsemi-serif-Bold.svg",
+            "format": "truetype"
+        },
+        {
+            "style": "DemiBold",
+            "weight": 600,
+            "italic": false,
+            "src": "fonts/files/NeverMindsemi-serif-DemiBold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false,
+            "src": "fonts/files/NeverMindsemi-serif-Medium.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false,
+            "src": "fonts/files/NeverMindsemi-serif-Regular.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Light",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindsemi-serif-Light.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false,
+            "src": "fonts/files/NeverMindsemi-serif-ExtraLight.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Thin",
+            "weight": 100,
+            "italic": false,
+            "src": "fonts/files/NeverMindsemi-serif-Thin.ttf",
             "format": "truetype"
         }
     ],
@@ -1321,13 +1410,26 @@
             "format": "truetype"
         }
     ],
-    "NeverMindRounded": [
+    "NeverMind Rounded": [
+        {
+            "style": "ExtraBold",
+            "weight": 800,
+            "italic": false,
+            "src": "fonts/files/NeverMindRounded-ExtraBold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraBold Italic",
+            "weight": 800,
+            "italic": true,
+            "src": "fonts/files/NeverMindRounded-ExtraBoldItalic.ttf",
+            "format": "truetype"
+        },
         {
             "style": "Bold",
             "weight": 700,
             "italic": false,
-            "src": "fonts/files/NeverMindRounded-Bold.otf",
-            "preview": "fonts/previews/NeverMindRounded-Bold.svg",
+            "src": "fonts/files/NeverMindRounded-Bold.ttf",
             "format": "truetype"
         },
         {
@@ -1335,7 +1437,6 @@
             "weight": 700,
             "italic": true,
             "src": "fonts/files/NeverMindRounded-BoldItalic.ttf",
-            "preview": "fonts/previews/NeverMindRounded-BoldItalic.svg",
             "format": "truetype"
         },
         {
@@ -1343,47 +1444,13 @@
             "weight": 600,
             "italic": false,
             "src": "fonts/files/NeverMindRounded-DemiBold.ttf",
-            "preview": "fonts/previews/NeverMindRounded-DemiBold.svg",
             "format": "truetype"
         },
         {
-            "style": "Demibold Italic",
+            "style": "DemiBold Italic",
             "weight": 600,
             "italic": true,
             "src": "fonts/files/NeverMindRounded-DemiBoldItalic.ttf",
-            "preview": "fonts/previews/NeverMindRounded-DemiBoldItalic.svg",
-            "format": "truetype"
-        },
-        {
-            "style": "ExtraLight",
-            "weight": 200,
-            "italic": false,
-            "src": "fonts/files/NeverMindRounded-ExtraLight.ttf",
-            "preview": "fonts/previews/NeverMindRounded-ExtraLight.svg",
-            "format": "truetype"
-        },
-        {
-            "style": "ExtraLight Italic",
-            "weight": 200,
-            "italic": true,
-            "src": "fonts/files/NeverMindRounded-ExtraLightItalic.ttf",
-            "preview": "fonts/previews/NeverMindRounded-ExtraLightItalic.svg",
-            "format": "truetype"
-        },
-        {
-            "style": "Light",
-            "weight": 300,
-            "italic": false,
-            "src": "fonts/files/NeverMindRounded-Light.ttf",
-            "preview": "fonts/previews/NeverMindRounded-Light.svg",
-            "format": "truetype"
-        },
-        {
-            "style": "Light Italic",
-            "weight": 300,
-            "italic": true,
-            "src": "fonts/files/NeverMindRounded-LightItalic.ttf",
-            "preview": "fonts/previews/NeverMindRounded-LightItalic.svg",
             "format": "truetype"
         },
         {
@@ -1391,7 +1458,6 @@
             "weight": 500,
             "italic": false,
             "src": "fonts/files/NeverMindRounded-Medium.ttf",
-            "preview": "fonts/previews/NeverMindRounded-Medium.svg",
             "format": "truetype"
         },
         {
@@ -1399,7 +1465,6 @@
             "weight": 500,
             "italic": true,
             "src": "fonts/files/NeverMindRounded-MediumItalic.ttf",
-            "preview": "fonts/previews/NeverMindRounded-MediumItalic.svg",
             "format": "truetype"
         },
         {
@@ -1407,7 +1472,6 @@
             "weight": 400,
             "italic": false,
             "src": "fonts/files/NeverMindRounded-Regular.ttf",
-            "preview": "fonts/previews/NeverMindRounded-Regular.svg",
             "format": "truetype"
         },
         {
@@ -1415,7 +1479,34 @@
             "weight": 400,
             "italic": true,
             "src": "fonts/files/NeverMindRounded-RegularItalic.ttf",
-            "preview": "fonts/previews/NeverMindRounded-RegularItalic.svg",
+            "format": "truetype"
+        },
+        {
+            "style": "Light",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindRounded-Light.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Light Italic",
+            "weight": 300,
+            "italic": true,
+            "src": "fonts/files/NeverMindRounded-LightItalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false,
+            "src": "fonts/files/NeverMindRounded-ExtraLight.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight Italic",
+            "weight": 200,
+            "italic": true,
+            "src": "fonts/files/NeverMindRounded-ExtraLightItalic.ttf",
             "format": "truetype"
         },
         {
@@ -1423,7 +1514,6 @@
             "weight": 100,
             "italic": false,
             "src": "fonts/files/NeverMindRounded-Thin.ttf",
-            "preview": "fonts/previews/NeverMindRounded-Thin.svg",
             "format": "truetype"
         },
         {
@@ -1431,7 +1521,6 @@
             "weight": 100,
             "italic": true,
             "src": "fonts/files/NeverMindRounded-ThinItalic.ttf",
-            "preview": "fonts/previews/NeverMindRounded-ThinItalic.svg",
             "format": "truetype"
         }
     ],
@@ -1441,7 +1530,6 @@
             "weight": 800,
             "italic": false,
             "src": "fonts/files/NeverMindHandwriting-ExtraBold.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-ExtraBold.svg",
             "format": "truetype"
         },
         {
@@ -1449,7 +1537,6 @@
             "weight": 700,
             "italic": false,
             "src": "fonts/files/NeverMindHandwriting-Bold.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-Bold.svg",
             "format": "truetype"
         },
         {
@@ -1457,23 +1544,6 @@
             "weight": 600,
             "italic": false,
             "src": "fonts/files/NeverMindHandwriting-DemiBold.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-DemiBold.svg",
-            "format": "truetype"
-        },
-        {
-            "style": "ExtraLight",
-            "weight": 200,
-            "italic": false,
-            "src": "fonts/files/NeverMindHandwriting-ExtraLight.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-ExtraLight.svg",
-            "format": "truetype"
-        },
-        {
-            "style": "Light",
-            "weight": 300,
-            "italic": false,
-            "src": "fonts/files/NeverMindHandwriting-Light.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-Light.svg",
             "format": "truetype"
         },
         {
@@ -1481,7 +1551,6 @@
             "weight": 500,
             "italic": false,
             "src": "fonts/files/NeverMindHandwriting-Medium.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-Medium.svg",
             "format": "truetype"
         },
         {
@@ -1489,7 +1558,20 @@
             "weight": 400,
             "italic": false,
             "src": "fonts/files/NeverMindHandwriting-Regular.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-Regular.svg",
+            "format": "truetype"
+        },
+        {
+            "style": "Light",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindHandwriting-Light.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false,
+            "src": "fonts/files/NeverMindHandwriting-ExtraLight.ttf",
             "format": "truetype"
         },
         {
@@ -1497,7 +1579,359 @@
             "weight": 100,
             "italic": false,
             "src": "fonts/files/NeverMindHandwriting-Thin.ttf",
-            "preview": "fonts/previews/NeverMindHandwriting-Thin.svg",
+            "format": "truetype"
+        }
+    ],
+    "NeverMind Serif Title": [
+        {
+            "style": "Heavy",
+            "weight": 900,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Heavy.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Heavy",
+            "weight": 900,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Heavy.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraBold",
+            "weight": 800,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Extrabold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraBold",
+            "weight": 800,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Extrabold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Bold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Bold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "DemiBold",
+            "weight": 600,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-DemiBold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "DemiBold",
+            "weight": 600,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-DemiBold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Medium.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Medium.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Regular.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false,
+            "src": "fonts/files/NeverMindSerifTitle-Regular.ttf",
+            "format": "truetype"
+        }
+    ],
+    "NeverMind Display": [
+        {
+            "style": "Heavy",
+            "weight": 900,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-Heavy.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraBold",
+            "weight": 800,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-Extrabold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-Bold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "DemiBold",
+            "weight": 600,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-DemiBold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-Medium.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-Regular.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Light",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-Light.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-ExtraLight.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Thin",
+            "weight": 100,
+            "italic": false,
+            "src": "fonts/files/NeverMindDisplay-Thin.ttf",
+            "format": "truetype"
+        }
+    ],
+    "NeverMind Mono": [
+        {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false,
+            "src": "fonts/files/NeverMindMono-Bold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Bold Italic",
+            "weight": 700,
+            "italic": true,
+            "src": "fonts/files/NeverMindMono-Bolditalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "DemiBold",
+            "weight": 600,
+            "italic": false,
+            "src": "fonts/files/NeverMindMono-DemiBold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "DemiBold Italic",
+            "weight": 600,
+            "italic": true,
+            "src": "fonts/files/NeverMindMono-DemiBolditalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false,
+            "src": "fonts/files/NeverMindMono-Medium.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Medium Italic",
+            "weight": 500,
+            "italic": true,
+            "src": "fonts/files/NeverMindMono-Mediumitalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false,
+            "src": "fonts/files/NeverMindMono-Regular.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Regular Italic",
+            "weight": 400,
+            "italic": true,
+            "src": "fonts/files/NeverMindMono-Regularitalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Light",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindMono-Light.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Light Italic",
+            "weight": 300,
+            "italic": true,
+            "src": "fonts/files/NeverMindMono-Lightitalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false,
+            "src": "fonts/files/NeverMindMono-ExtraLight.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight Italic",
+            "weight": 200,
+            "italic": true,
+            "src": "fonts/files/NeverMindMono-ExtraLightitalic.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Thin",
+            "weight": 100,
+            "italic": false,
+            "src": "fonts/files/NeverMindMono-Thin.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Thin Italic",
+            "weight": 100,
+            "italic": true,
+            "src": "fonts/files/NeverMindMono-Thinitalic.ttf",
+            "format": "truetype"
+        }
+    ],
+    "NeverMind Pixel": [
+        {
+            "style": "5pixel",
+            "weight": 900,
+            "italic": false,
+            "src": "fonts/files/NeverMindPixel-5pixel.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "7pixel",
+            "weight": 600,
+            "italic": false,
+            "src": "fonts/files/NeverMindPixel-7pixel.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "9pixel",
+            "weight": 500,
+            "italic": false,
+            "src": "fonts/files/NeverMindPixel-9pixel.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "11pixel",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindPixel-11pixel.ttf",
+            "format": "truetype"
+        }
+    ],
+    "NeverMind Slab": [
+        {
+            "style": "Heavy",
+            "weight": 900,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Heavy.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraBold",
+            "weight": 800,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Extrabold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Bold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "DemiBold",
+            "weight": 600,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-DemiBold.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Medium.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Regular.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Book",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Book.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Light",
+            "weight": 300,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Light.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-ExtraLight.ttf",
+            "format": "truetype"
+        },
+        {
+            "style": "Thin",
+            "weight": 100,
+            "italic": false,
+            "src": "fonts/files/NeverMindSlab-Thin.ttf",
             "format": "truetype"
         }
     ]

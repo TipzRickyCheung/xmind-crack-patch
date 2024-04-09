@@ -1,10 +1,10 @@
-const { ipcRenderer } = require('electron')
+const { ipcRenderer } = require("electron");
 
 if (
-  window.location.hostname.includes('xmind') &&
-  window.location.pathname.includes('/in-app')
+  window.location.hostname.includes("xmind") &&
+  window.location.pathname.includes("/in-app")
 ) {
-  window.parent.addEventListener('message', event => {
-    ipcRenderer.sendToHost(event.data)
-  })
+  window.parent.addEventListener("message", (event) => {
+    ipcRenderer.sendToHost(event.data);
+  });
 }

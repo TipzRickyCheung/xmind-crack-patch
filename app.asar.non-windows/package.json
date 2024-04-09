@@ -1,12 +1,12 @@
 {
   "name": "xmind-vana",
   "productName": "Xmind",
-  "buildNumber": "202308281754",
+  "buildNumber": "202403131929",
   "arch": "64",
   "releaseType": "vana_linux",
-  "commitHash": "16a0695cebe713b2f0706a57b21174f44f6e777b",
-  "version": "23.08.02122",
-  "buildVersion": "23.08.02122",
+  "commitHash": "a1b88eda0ce7a383f5374ea07f2785d33c156b5a",
+  "version": "24.01.14361",
+  "buildVersion": "24.01.14361",
   "description": "Xmind - The most popular mind mapping software.",
   "author": {
     "name": "XMIND LTD.",
@@ -27,6 +27,7 @@
     "xmind-vana-osx-sandbox": "file:vendor/vana-osx-api/sandbox",
     "xmind-vana-osx-tokenizer": "file:vendor/vana-osx-api/tokenizer",
     "xmind-vana-osx-handoff": "file:vendor/vana-osx-api/handoff",
+    "xmind-vana-osx-iap": "file:vendor/vana-osx-api/iap",
     "es6-set": "0.1.5",
     "es5-ext": "0.10.53"
   },
