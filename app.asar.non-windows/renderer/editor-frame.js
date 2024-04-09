@@ -190,7 +190,7 @@
               n = (0, u.JE)().T,
               r = (0, c.Fl)(() => (0, u.S)().language),
               o = (0, c.Fl)(() => (0, u.S)().systemAppearance),
-              s = (0, c.Fl)(() => (0, u.Yh)().isStatusValid),
+              s = (0, c.Fl)(() => true),
               l = (0, c.Fl)(() => (0, u.IW)().isPDVisible),
               d = (0, c.Fl)(() => (0, u.S)().toolbarStyle === f.i_),
               m = (0, c.Fl)(() => {
@@ -285,7 +285,7 @@
                     language: a.language,
                     "system-appearance": a.systemAppearance,
                     "is-outline-mode": !1,
-                    "is-activation-status-valid": a.isActivationStatusValid,
+                    "is-activation-status-valid": true,
                     "is-p-d-visible": a.isPDVisible,
                     "is-rightbar-visible": !1,
                     "is-icon-only": a.isIconOnly,
@@ -2261,7 +2261,7 @@
                   });
                 }),
               q = (t) =>
-                `${t}-${a.language}-${a.isOutlineMode ? "outline" : "map"}-${a.isPDVisible ? "paywall-d" : a.isActivationStatusValid ? "activated" : "evaluation"}`,
+                `${t}-${a.language}-${a.isOutlineMode ? "outline" : "map"}-${a.isPDVisible ? "paywall-d" : true ? "activated" : "evaluation"}`,
               K = () => {
                 const t = q("tool-bar");
                 if (S.value.has(t)) return S.value.get(t);
@@ -2331,7 +2331,7 @@
                   [n, i] = [216, A.value.offsetWidth],
                   [r, o] = K(),
                   [s, l, d] = [164, 132, 24],
-                  u = a.isPDVisible ? s : a.isActivationStatusValid ? d : l,
+                  u = a.isPDVisible ? s : true ? d : l,
                   c = i + o + 16 + u,
                   f = i + r + 16 + u,
                   p = n + r + 16 + u,
@@ -2363,7 +2363,7 @@
               at = (t) =>
                 t.submenu && t.submenu.filter((t) => !tt(t)).every(et),
               nt = ({ item: t, isDisabled: e, ignorePro: n }) => {
-                if (!a.isActivationStatusValid && !n && (et(t) || at(t)))
+                if (!true && !n && (et(t) || at(t)))
                   return r().join(
                     (0, s.bY)(),
                     `static/images/toolbar-insert/${t.icon}-pro@2x.png`,
@@ -2565,7 +2565,7 @@
                     "uk-window-topbar top-bar uk-workbench-top-bar uk-flex uk-width-1-1 uk-flex-middle",
                   class: {
                     [a.shrinkLevel]: !0,
-                    "evaluation-top-bar": !t.isActivationStatusValid,
+                    "evaluation-top-bar": !true,
                     "paywall-d-top-bar": t.isPDVisible,
                   },
                   on: { contextmenu: a.openTopBarCtxMenu },
@@ -2788,7 +2788,7 @@
                             staticClass:
                               "uk-preserve-interactive top-bar-paywall-d-trigger",
                           })
-                        : t.isActivationStatusValid
+                        : true
                           ? e("div", {
                               staticClass: "top-bar-evaluation-placeholder",
                             })

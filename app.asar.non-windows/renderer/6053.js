@@ -1043,7 +1043,7 @@
                   o = n ? E(n, e) : y(e, t.currentSkeletonId.value);
                 let s = "";
                 return (
-                  !(0, a.Yh)().isStatusValid &&
+                  !true &&
                     T(e) &&
                     (s = (0, l.ju)(
                       "static/assets/images/pro/pro-small-with-border.svg",
@@ -8774,7 +8774,7 @@
         emits: ["input"],
         setup(e, { emit: t }) {
           const i = (0, n.iH)(`popover-${(0, f.hb)()}`),
-            l = (0, n.Fl)(() => (0, a.Yh)().isStatusValid),
+            l = (0, n.Fl)(() => true),
             o = (0, n.Fl)(() =>
               (0, Ve.ju)("static/assets/images/pro/pro-small-with-border.svg"),
             );
@@ -9296,7 +9296,7 @@
                 activeSheetFigure: i,
                 executeAction: o,
               } = (0, l.nZ)(),
-              s = (0, n.Fl)(() => (0, a.Yh)().isStatusValid),
+              s = (0, n.Fl)(() => true),
               {
                 topicQuickStyleOptions: r,
                 isTopicQuickStyleDisabled: u,
@@ -15665,7 +15665,7 @@
             S = (0, n.iH)(!1),
             _ = (0, n.iH)(g.Z.existsSync(b)),
             T = (0, n.iH)(g.Z.existsSync(x)),
-            w = (0, n.Fl)(() => (0, a.Yh)().isStatusValid),
+            w = (0, n.Fl)(() => true),
             L = (0, n.Fl)(() =>
               (0, l.ju)("static/assets/images/illustration/download.svg"),
             ),
@@ -15842,7 +15842,7 @@
               __sfc: !0,
               illustrationSearchGroups: t,
               isActivationStatusValid: (0, n.Fl)(
-                () => (0, a.Yh)().isStatusValid,
+                () => true,
               ),
               proIcon: (0, n.Fl)(() =>
                 (0, l.ju)(
@@ -16029,7 +16029,7 @@
               changeIllustrationActiveGroupId: f,
             } = (0, o.lE)(),
             b = (0, n.iH)(!0),
-            x = (0, n.Fl)(() => (0, a.Yh)().isStatusValid),
+            x = (0, n.Fl)(() => true),
             k = (0, n.Fl)(() =>
               (0, l.ju)(
                 "static/assets/images/pro/pro-small-with-no-border.svg",

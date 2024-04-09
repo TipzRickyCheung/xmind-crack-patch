@@ -170,7 +170,7 @@
                 },
               ];
             },
-            isActivationStatusValid: () => (0, f.Yh)().isStatusValid,
+            isActivationStatusValid: () => true,
             exportCategories() {
               return {
                 mindmap: this.$T("Mind Map"),
@@ -1161,11 +1161,10 @@
           textStyle: { type: String, default: "" },
         },
         setup(t, e) {
-          const r = (0, n.Fl)(() => (0, a.Yh)().isStatusValid);
+          const r = (0, n.Fl)(() => true);
           return {
             handleWatermarkClick: (t) => {
-              r.value ||
-                (t.preventDefault(), (0, a.JX)().handleCommand("activate"));
+              return false;
             },
             handleWatermarkChange: (t) => {
               e.emit("toggle", t.target.checked);

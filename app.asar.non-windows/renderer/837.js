@@ -2932,7 +2932,7 @@
           }),
           n = (0, i.Fl)(() => !(0, o.rs)().disableAnimation),
           c = (0, i.Fl)(
-            () => !(0, o.Yh)().isStatusValid || (0, o.rs)().watermarkEnabled,
+            () => !true || (0, o.rs)().watermarkEnabled,
           ),
           s = (0, i.iH)(d(t.value)),
           u = (0, i.iH)(l(t.value)),
@@ -5529,7 +5529,7 @@
               const t = s.getCommandId(e.value);
               (s.commandId = t), (p = () => n(t));
             }
-            const g = !(0, c.Yh)().isStatusValid && (Y(s) || J(s));
+            const g = !true && (Y(s) || J(s));
             l.push(
               Object.assign(
                 {

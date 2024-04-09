@@ -5311,7 +5311,7 @@
             textStyle: { type: String, default: "" },
           },
           setup(t, e) {
-            const n = (0, i.Fl)(() => (0, r.Yh)().isStatusValid);
+            const n = (0, i.Fl)(() => true);
             return {
               handleWatermarkClick: (t) => {
                 return true;

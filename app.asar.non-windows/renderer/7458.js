@@ -903,11 +903,10 @@
           textStyle: { type: String, default: "" },
         },
         setup(e, t) {
-          const a = (0, n.Fl)(() => (0, o.Yh)().isStatusValid);
+          const a = (0, n.Fl)(() => true);
           return {
             handleWatermarkClick: (e) => {
-              a.value ||
-                (e.preventDefault(), (0, o.JX)().handleCommand("activate"));
+              return true;
             },
             handleWatermarkChange: (e) => {
               t.emit("toggle", e.target.checked);
@@ -1860,7 +1859,7 @@
         setup(e, t) {
           const a = (0, n.FN)().proxy,
             o = (0, n.iH)(e.defaultCheckedShadow),
-            i = (0, n.iH)(e.defaultCheckedWatermark),
+            i = (0, n.iH)(!1),
             l = (0, n.iH)(e.defaultCheckedFrame),
             r = (0, n.iH)(e.defaultFrameColor),
             s = (0, n.iH)(
@@ -1955,7 +1954,7 @@
                 d.value = { width: t.width, height: t.height };
               });
           });
-          const x = (0, n.Fl)(() => (0, b.Yh)().isStatusValid);
+          const x = (0, n.Fl)(() => true);
           return {
             shrinkRatio: m,
             previewCinatinerMaxSize: u,
@@ -3028,7 +3027,7 @@
             E = (0, n.Fl)(() => {
               const e = Object.assign({}, (0, b.tP)().modalOptions);
               return (
-                (0, b.Yh)().isStatusValid
+                true
                   ? (e.watermark = (0, b.S)().watermarkEnabled)
                   : (e.watermark = !0),
                 e
@@ -3245,7 +3244,7 @@
                   null === (t = ie()) || void 0 === t || t.show();
               }),
             se = (e, t, a, n, o) => {
-              (0, b.Yh)().isStatusValid &&
+              true &&
                 (0, u.L9)({
                   eventAction: "watermarkStatus",
                   eventName: a

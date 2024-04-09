@@ -32217,7 +32217,7 @@
             () => {
               const e = (0, o.ref)({}),
                 t = (0, o.ref)([]),
-                n = (0, o.ref)(c.ACTIVATION_STATUS.TRIAL),
+                n = (0, o.ref)(c.ACTIVATION_STATUS.VALID),
                 i = (0, o.ref)(0),
                 r = (0, o.ref)(""),
                 p = (0, o.ref)(new Date().getTime()),
@@ -32246,7 +32246,7 @@
                         A.value === c.ACTIVATION_STATUS.EXPIRED ||
                         S.value === c.ACTIVATION_STATUS.EXPIRED
                       ? c.ACTIVATION_STATUS.EXPIRED
-                      : c.ACTIVATION_STATUS.TRIAL,
+                      : c.ACTIVATION_STATUS.VALID,
                 ),
                 E = (0, o.computed)(
                   () => g.value === c.ACTIVATION_STATUS.VALID,
@@ -32262,7 +32262,7 @@
                 }),
                 A = (0, o.computed)(() => {
                   var e;
-                  if (!y.value) return c.ACTIVATION_STATUS.TRIAL;
+                  if (!y.value) return c.ACTIVATION_STATUS.VALID;
                   {
                     const { status: t, expireTime: n } =
                       null !== (e = y.value) && void 0 !== e ? e : {};
@@ -52758,7 +52758,7 @@
       const e = (0, Ft.useActivationStore)().status;
       return e === ot.ACTIVATION_STATUS.EXPIRED
         ? "ee"
-        : e === ot.ACTIVATION_STATUS.TRIAL
+        : e === ot.ACTIVATION_STATUS.VALID
           ? "trial"
           : (0, Ft.useActivationStore)().perMachineLicenseStatus ===
               ot.ACTIVATION_STATUS.VALID
@@ -56085,7 +56085,7 @@
             e.watch(
               () => (0, Ft.useActivationStore)().status,
               (e) => {
-                e !== ot.ACTIVATION_STATUS.TRIAL &&
+                e !== ot.ACTIVATION_STATUS.VALID &&
                   (0, Ft.useActivationStore)().expireMachineStatus();
               },
             ),

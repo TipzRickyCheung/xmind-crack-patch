@@ -2807,7 +2807,7 @@
         setup(e) {
           const t = (0, s.JE)().T,
             { updateImageFrame: a } = (0, s.ae)(),
-            i = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+            i = (0, n.Fl)(() => true),
             o = (0, n.Fl)(() =>
               (0, v.ju)("static/assets/images/pro/pro-with-no-border.svg"),
             ),
@@ -2967,7 +2967,7 @@
               isShadowDisabeld: A,
               isSplitByMainBranchDisabled: F,
             } = (0, b.Z)(),
-            B = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+            B = (0, n.Fl)(() => true),
             L = (0, n.Fl)(() =>
               (0, v.ju)("static/assets/images/pro/pro-with-no-border.svg"),
             ),
@@ -3700,7 +3700,7 @@
         setup(e, { emit: t }) {
           const a = e,
             i = (0, s.JE)().T,
-            o = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+            o = (0, n.Fl)(() => true),
             r = (0, n.Fl)(() =>
               (0, v.ju)("static/assets/images/pro/pro-with-no-border.svg"),
             ),
@@ -3984,7 +3984,7 @@
         setup(e, { emit: t }) {
           const a = e,
             i = (0, s.JE)().T,
-            o = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+            o = (0, n.Fl)(() => true),
             r = (0, n.Fl)(() =>
               (0, v.ju)("static/assets/images/pro/pro-with-no-border.svg"),
             ),
@@ -4270,7 +4270,7 @@
               png: a("Export to PNG"),
               svg: a("Export to SVG"),
             })),
-            Y = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+            Y = (0, n.Fl)(() => true),
             J = (0, n.Fl)(() => {
               const { getPadding: e, getInsidePaddingBottom: a } = (0, b.Z)(),
                 i = (0, m.JX)();
@@ -5639,7 +5639,7 @@
                   r = i ? M(i, e) : b(e, t.currentSkeletonId.value);
                 let l = "";
                 return (
-                  !(0, n.Yh)().isStatusValid &&
+                  !true &&
                     _(e) &&
                     (l = (0, o.ju)(
                       "static/assets/images/pro/pro-small-with-border.svg",

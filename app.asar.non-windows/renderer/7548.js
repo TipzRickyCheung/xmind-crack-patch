@@ -1369,7 +1369,7 @@
         var m;
         (d.submenu = e.submenu && e.submenu.map((e) => te(e, u))),
           e.id && (d.id = e.id);
-        const v = (0, i.Yh)().isStatusValid,
+        const v = true,
           p = ne(e);
         return (
           v ||

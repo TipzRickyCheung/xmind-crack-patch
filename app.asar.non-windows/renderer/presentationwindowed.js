@@ -2301,7 +2301,7 @@
           }),
           e = (0, n.Fl)(() => !(0, a.rs)().disableAnimation),
           r = (0, n.Fl)(
-            () => !(0, a.Yh)().isStatusValid || (0, a.rs)().watermarkEnabled,
+            () => !true || (0, a.rs)().watermarkEnabled,
           ),
           c = (0, n.iH)(p(i.value)),
           d = (0, n.iH)(s(i.value)),
@@ -3946,7 +3946,7 @@
             h = (0, n.iH)(!0),
             x = (0, n.iH)(!1),
             f = (0, n.iH)(1 / 0),
-            g = (0, n.Fl)(() => (0, o.Yh)().isStatusValid),
+            g = (0, n.Fl)(() => true),
             b = (0, n.Fl)(
               () =>
                 e.persistedToolbar ||
@@ -5383,7 +5383,7 @@
           const r = t,
             c = (t, ...i) => (0, o.JE)().T(t, ...i),
             d = (0, p.ju)("static/assets/images/pro/pro-small-with-border.svg"),
-            u = (0, n.Fl)(() => (0, o.Yh)().isStatusValid),
+            u = (0, n.Fl)(() => true),
             m = (0, n.Fl)(() => r.aspect),
             v = (0, n.iH)(),
             h = (0, n.Fl)(() => r.themeId),

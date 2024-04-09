@@ -462,7 +462,7 @@
           }),
           i = (0, n.Fl)(() => !(0, o.rs)().disableAnimation),
           u = (0, n.Fl)(
-            () => !(0, o.Yh)().isStatusValid || (0, o.rs)().watermarkEnabled,
+            () => !true || (0, o.rs)().watermarkEnabled,
           ),
           d = (0, n.iH)(r(t.value)),
           c = (0, n.iH)(l(t.value)),
@@ -2166,7 +2166,7 @@
             m = (0, n.iH)(!0),
             g = (0, n.iH)(!1),
             f = (0, n.iH)(1 / 0),
-            w = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+            w = (0, n.Fl)(() => true),
             x = (0, n.Fl)(
               () =>
                 i.persistedToolbar ||
@@ -3603,7 +3603,7 @@
           const u = e,
             d = (e, ...t) => (0, s.JE)().T(e, ...t),
             c = (0, r.ju)("static/assets/images/pro/pro-small-with-border.svg"),
-            h = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+            h = (0, n.Fl)(() => true),
             p = (0, n.Fl)(() => u.aspect),
             v = (0, n.iH)(),
             m = (0, n.Fl)(() => u.themeId),
@@ -4644,7 +4644,7 @@
                       startTopicId:
                         null !== (t = Q.value) && void 0 !== t ? t : null,
                       suggestedSlideSize: H.value.windowFittedSlideSize,
-                      needSubscriptionHint: !(0, a.Yh)().isStatusValid,
+                      needSubscriptionHint: !true,
                     }),
                     S.value,
                   )),

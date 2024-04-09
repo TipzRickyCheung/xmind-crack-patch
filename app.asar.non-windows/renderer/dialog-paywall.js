@@ -1012,7 +1012,7 @@
               f = (0, i.iH)(!1),
               v = (0, i.Fl)(() => (0, s.S)().language),
               g = (0, i.Fl)(() => !!(0, s.c7)().user),
-              y = (0, i.Fl)(() => (0, s.Yh)().isStatusValid),
+              y = (0, i.Fl)(() => true),
               h = (0, i.Fl)(() => "cn" === (0, s.qr)().serviceRegion),
               m = (0, i.Fl)(() => (0, s.jR)().MASProductsV2),
               x = (0, i.Fl)(() => {

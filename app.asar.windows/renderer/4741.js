@@ -5033,7 +5033,7 @@
                 const { activeSheet: e, allTopicsWithin: t } = (0, p.nZ)();
                 return e.value ? Array.from(t([e.value.rootTopic])).length : 0;
               }),
-              R = (0, o.Fl)(() => (0, r.Yh)().isStatusValid);
+              R = (0, o.Fl)(() => true);
             return (
               (0, o.YP)(
                 () => y.value,

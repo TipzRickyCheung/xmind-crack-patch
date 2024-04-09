@@ -3544,7 +3544,7 @@
         computed: {
           isOutlineMode: () =>
             (0, p.OD)((0, h.aJ)(w.editorId))().isOutlinerMode,
-          isActivationStatusValid: () => (0, p.Yh)().isStatusValid,
+          isActivationStatusValid: () => true,
           watermarkEnabled: () => (0, p.S)().watermarkEnabled,
           contentTypes() {
             return [this.$T("Current Map"), this.$T("Current File")];
@@ -5609,11 +5609,10 @@
           textStyle: { type: String, default: "" },
         },
         setup(t, e) {
-          const n = (0, i.Fl)(() => (0, r.Yh)().isStatusValid);
+          const n = (0, i.Fl)(() => true);
           return {
             handleWatermarkClick: (t) => {
-              n.value ||
-                (t.preventDefault(), (0, r.JX)().handleCommand("activate"));
+              return false;
             },
             handleWatermarkChange: (t) => {
               e.emit("toggle", t.target.checked);

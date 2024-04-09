@@ -1453,7 +1453,7 @@
                   r = n ? R(n, e) : x(e, t.currentSkeletonId.value);
                 let l = "";
                 return (
-                  !(0, a.Yh)().isStatusValid &&
+                  !true &&
                     O(e) &&
                     (l = (0, o.ju)(
                       "static/assets/images/pro/pro-small-with-border.svg",

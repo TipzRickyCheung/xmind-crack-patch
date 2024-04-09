@@ -481,7 +481,7 @@
             I = (0, n.iH)(!1),
             S = (0, n.iH)(m.Z.existsSync(x)),
             C = (0, n.iH)(m.Z.existsSync(k)),
-            w = (0, n.Fl)(() => (0, i.Yh)().isStatusValid),
+            w = (0, n.Fl)(() => true),
             T = (0, n.Fl)(() =>
               (0, l.ju)("static/assets/images/illustration/download.svg"),
             ),
@@ -658,7 +658,7 @@
               __sfc: !0,
               illustrationSearchGroups: e,
               isActivationStatusValid: (0, n.Fl)(
-                () => (0, i.Yh)().isStatusValid,
+                () => true,
               ),
               proIcon: (0, n.Fl)(() =>
                 (0, l.ju)(
@@ -845,7 +845,7 @@
               changeIllustrationActiveGroupId: f,
             } = (0, s.lE)(),
             x = (0, n.iH)(!0),
-            k = (0, n.Fl)(() => (0, i.Yh)().isStatusValid),
+            k = (0, n.Fl)(() => true),
             y = (0, n.Fl)(() =>
               (0, l.ju)(
                 "static/assets/images/pro/pro-small-with-no-border.svg",

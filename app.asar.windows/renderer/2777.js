@@ -7519,7 +7519,7 @@
           emits: ["input"],
           setup(e, { emit: t }) {
             const i = (0, a.iH)(`popover-${(0, y.hb)()}`),
-              l = (0, a.Fl)(() => (0, n.Yh)().isStatusValid),
+              l = (0, a.Fl)(() => true),
               o = (0, a.Fl)(() =>
                 (0, b.ju)("static/assets/images/pro/colorful-branch-pro.svg"),
               );

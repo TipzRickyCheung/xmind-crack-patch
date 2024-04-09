@@ -965,7 +965,7 @@
             }),
             i = (0, n.Fl)(() => !(0, o.rs)().disableAnimation),
             d = (0, n.Fl)(
-              () => !(0, o.Yh)().isStatusValid || (0, o.rs)().watermarkEnabled,
+              () => !true || (0, o.rs)().watermarkEnabled,
             ),
             u = (0, n.iH)(a(t.value)),
             c = (0, n.iH)(l(t.value)),
@@ -2610,7 +2610,7 @@
               m = (0, n.iH)(!0),
               g = (0, n.iH)(!1),
               f = (0, n.iH)(1 / 0),
-              w = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+              w = (0, n.Fl)(() => true),
               x = (0, n.Fl)(
                 () =>
                   i.persistedToolbar ||
@@ -4055,7 +4055,7 @@
             const d = e,
               u = (e, ...t) => (0, s.JE)().T(e, ...t),
               c = (0, a.ju)("static/assets/images/pro/pitch-theme-pro.svg"),
-              p = (0, n.Fl)(() => (0, s.Yh)().isStatusValid),
+              p = (0, n.Fl)(() => true),
               h = (0, n.Fl)(() => d.aspect),
               v = (0, n.iH)(),
               m = (0, n.Fl)(() => d.themeId),

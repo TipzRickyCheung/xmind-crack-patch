@@ -534,7 +534,7 @@
             a = (0, i.iH)(null),
             l = (0, i.Fl)(() => (0, p.Al)("static/assets/images/pro/lock.svg")),
             s = (0, i.Fl)(
-              () => !(0, m.Yh)().isStatusValid && "pro" === n.item.license,
+              () => !true && "pro" === n.item.license,
             );
           return (
             (0, i.bv)(() => {
@@ -1291,7 +1291,7 @@
                   ? o.value
                   : "",
             ),
-            v = (0, i.Fl)(() => (0, m.Yh)().isStatusValid),
+            v = (0, i.Fl)(() => true),
             f = (0, i.Fl)(() => z().templatesGroupsWithLocalThumbnail.value),
             h = (0, i.Fl)(() =>
               z().templatesGroupsWithLocalThumbnail.value.filter(

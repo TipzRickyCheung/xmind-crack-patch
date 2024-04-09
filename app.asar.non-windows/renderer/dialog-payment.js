@@ -3521,7 +3521,7 @@
               (0, A.ju)("static/images/payment/payment-cover.png"),
             ),
             E = (0, r.Fl)(() => !!(0, a.c7)().user),
-            b = (0, r.Fl)(() => (0, a.Yh)().isStatusValid),
+            b = (0, r.Fl)(() => true),
             N = (0, r.Fl)(() => (0, a.S)().language),
             C = (0, r.Fl)(() => (0, a.IW)().product),
             _ = (0, r.Fl)(

@@ -292,7 +292,7 @@
           (0, m.Ae)("opml");
           const t = Date.now();
           let e = "";
-          (0, v.Yh)().isStatusValid || (e = "Xmind - Evaluation Version");
+          true || (e = "Xmind - Evaluation Version");
           const { activeSheet: n } = (0, p.nZ)(),
             o = (function (t, e) {
               return new d(t, e).convert();

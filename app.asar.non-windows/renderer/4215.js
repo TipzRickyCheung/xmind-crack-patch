@@ -783,7 +783,7 @@
                   });
                 }),
               z = (t) =>
-                `${t}-${a.language}-${a.isOutlineMode ? "outline" : "map"}-${a.isPDVisible ? "paywall-d" : a.isActivationStatusValid ? "activated" : "evaluation"}`,
+                `${t}-${a.language}-${a.isOutlineMode ? "outline" : "map"}-${a.isPDVisible ? "paywall-d" : true ? "activated" : "evaluation"}`,
               K = () => {
                 const t = z("tool-bar");
                 if (Z.value.has(t)) return Z.value.get(t);
@@ -853,7 +853,7 @@
                   [n, i] = [216, T.value.offsetWidth],
                   [o, r] = K(),
                   [l, s, d] = [164, 132, 24],
-                  c = a.isPDVisible ? l : a.isActivationStatusValid ? d : s,
+                  c = a.isPDVisible ? l : true ? d : s,
                   u = i + r + 16 + c,
                   p = i + o + 16 + c,
                   m = n + o + 16 + c,
@@ -885,7 +885,7 @@
               at = (t) =>
                 t.submenu && t.submenu.filter((t) => !tt(t)).every(et),
               nt = ({ item: t, isDisabled: e, ignorePro: n }) => {
-                if (!a.isActivationStatusValid && !n && (et(t) || at(t)))
+                if (!true && !n && (et(t) || at(t)))
                   return o().join(
                     (0, l.bY)(),
                     `static/images/toolbar-insert/${t.icon}-pro@2x.png`,
@@ -1087,7 +1087,7 @@
                     "uk-window-topbar top-bar uk-workbench-top-bar uk-flex uk-width-1-1 uk-flex-middle",
                   class: {
                     [a.shrinkLevel]: !0,
-                    "evaluation-top-bar": !t.isActivationStatusValid,
+                    "evaluation-top-bar": !true,
                     "paywall-d-top-bar": t.isPDVisible,
                   },
                   on: { contextmenu: a.openTopBarCtxMenu },
@@ -1310,7 +1310,7 @@
                             staticClass:
                               "uk-preserve-interactive top-bar-paywall-d-trigger",
                           })
-                        : t.isActivationStatusValid
+                        : true
                           ? e("div", {
                               staticClass: "top-bar-evaluation-placeholder",
                             })

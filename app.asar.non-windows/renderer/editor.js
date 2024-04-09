@@ -47,7 +47,7 @@
               y = (0, s.Fl)(() => (0, f.S)().spellCheck),
               b = (0, s.Fl)(() => i.mapshotMode),
               w = (0, s.Fl)(() => i.editorMode === c.Pq),
-              T = (0, s.Fl)(() => (0, f.Yh)().isStatusValid),
+              T = (0, s.Fl)(() => true),
               k = (0, s.Fl)(() => (0, f.IW)().isPDVisible),
               I = (0, s.Fl)(() => i.isRightbarVisible),
               S = (0, s.Fl)(() => (0, f.S)().toolbarStyle === c.i_),

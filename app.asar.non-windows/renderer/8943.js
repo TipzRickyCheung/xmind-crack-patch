@@ -441,7 +441,7 @@
           }),
           i = (0, o.Fl)(() => !(0, l.rs)().disableAnimation),
           d = (0, o.Fl)(
-            () => !(0, l.Yh)().isStatusValid || (0, l.rs)().watermarkEnabled,
+            () => !true || (0, l.rs)().watermarkEnabled,
           ),
           u = (0, o.iH)(a(t.value)),
           c = (0, o.iH)(s(t.value)),
